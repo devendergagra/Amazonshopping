@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Verification pass actual : Already a customer? Sign in and Expected : Already a customer? Sign in]]>
+    </line>
+    <line>
+      <![CDATA[*************Detail Page Verification********************]]>
+    </line>
+    <line>
+      <![CDATA[Product name verified on detail page: TCL 163.96 cm (65 inches)  AI 4K UHD Certified Android Smart LED TV 65P8 (Black) (2019 Model) and present]]>
+    </line>
+    <line>
+      <![CDATA[*************Cart Page Verification********************]]>
+    </line>
+    <line>
+      <![CDATA[verification passed and records are present : TCL 163.96 cm (65 inches)  AI 4K UHD Certified Android Smart LED]]>
+    </line>
+    <line>
+      <![CDATA[verification passed and records are present : In stock]]>
+    </line>
+    <line>
+      <![CDATA[verification passed and records are present : Eligible for FREE Shipping]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="164628" started-at="2020-07-11T04:36:25Z" finished-at="2020-07-11T04:39:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="164628" started-at="2020-07-11T04:36:25Z" finished-at="2020-07-11T04:39:10Z">
+      <class name="org.com.project.testcase.AmazonProductOrder">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.com.project.testcase.AmazonProductOrder@edf4efb]" name="setUp" is-config="true" duration-ms="18844" started-at="2020-07-11T10:06:25Z" finished-at="2020-07-11T10:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="amzonOrder()[pri:0, instance:org.com.project.testcase.AmazonProductOrder@edf4efb]" name="amzonOrder" duration-ms="144698" started-at="2020-07-11T10:06:44Z" finished-at="2020-07-11T10:09:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verification pass actual : Already a customer? Sign in and Expected : Already a customer? Sign in]]>
+            </line>
+            <line>
+              <![CDATA[*************Detail Page Verification********************]]>
+            </line>
+            <line>
+              <![CDATA[Product name verified on detail page: TCL 163.96 cm (65 inches)  AI 4K UHD Certified Android Smart LED TV 65P8 (Black) (2019 Model) and present]]>
+            </line>
+            <line>
+              <![CDATA[*************Cart Page Verification********************]]>
+            </line>
+            <line>
+              <![CDATA[verification passed and records are present : TCL 163.96 cm (65 inches)  AI 4K UHD Certified Android Smart LED]]>
+            </line>
+            <line>
+              <![CDATA[verification passed and records are present : In stock]]>
+            </line>
+            <line>
+              <![CDATA[verification passed and records are present : Eligible for FREE Shipping]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amzonOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.com.project.testcase.AmazonProductOrder@edf4efb]" name="tearDown" is-config="true" duration-ms="1070" started-at="2020-07-11T10:09:09Z" finished-at="2020-07-11T10:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.com.project.testcase.AmazonProductOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
